@@ -23,7 +23,7 @@ if(args.category):
     item_category = str(args.category)
 else:
     item_category = str(
-        input('Enter the search category (Ex : Nike Black shoes): '))
+        input('Nike Shirt'))
 
 if(args.CSVname):
     csv_name = str(args.CSVname)
@@ -35,12 +35,12 @@ csv_name = csv_name.replace(" ", "_")
 if args.login_name:
 	login_name = args.login_name
 else:
-	login_name = str(input('Enter your pinterest email id: '))
+	login_name = str(input('aashayzende@gmail.com'))
 
 if args.CSVname:
 	login_pass = args.login_pass
 else:
-	login_pass = str(input('Enter the pinterest password: '))
+	login_pass = str(input('3WfbTPSsVRLT@t@'))
 
 # Initialize and launch the chrome driver
 driver = webdriver.Chrome()
